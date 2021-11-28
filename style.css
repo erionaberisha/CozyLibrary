@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(Constellation.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/background/Constellation.jpg);
     background-position: center;
     background-size: cover;
     height: 109vh;
@@ -16,6 +16,7 @@
     width: 1200px;
     height: 75px;
     margin: auto;
+    padding-top: 20px;
 }
 
 .icon{
@@ -29,7 +30,7 @@
     font-size: 25px;
     font-family: Arial;
     padding-left: 20px;
-    float: left;
+    float: right;
     padding-top: 20px;
 }
 
