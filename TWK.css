@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(images/background/background.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.icon{
+    width: 180px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #8a2be2;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:right;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #8a2be2;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #8a2be2;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: gray;
+    border: 2px solid gray;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    overflow: hidden;
+    margin-left: 120px;
+    margin-top: 20px;
+    }
+      
+.table thead tr {
+    background-color: gray;
+    border-right: black;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    } 
+      
+.table th,
+.table td {
+    padding: 15px 70px;
+    }
+      
+.table tbody tr {
+    border-bottom: 2px solid gray;
+    border-left:gray ;
+    border-right:black ;
+    border-top:2px solid gray ;
+    background-color: #f3f3f3;
+    }
+       
