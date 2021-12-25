@@ -226,5 +226,22 @@ body {
       background: transparent;
     }
   }
+   #player {
+    width: 25%;
+    height:20px;
+    background-blend-mode: color;
+
+   }​
   
+  audio:hover, audio:focus, audio:active
+  {
+  -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+  box-sizing: content-box;
+  box-decoration-break:clone;
+  }
 
