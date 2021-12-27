@@ -1,72 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Registration Form</title>
-	<link rel="stylesheet" href="RF.css">
-</head>
-<body>
-
-<div class="wrapper">
-    <div class="title">
-      Registration Form
-    </div>
-    <div class="form">
-       <div class="inputfield">
-          <label>First Name</label>
-          <input type="text" class="input">
-       </div>  
-        <div class="inputfield">
-          <label>Last Name</label>
-          <input type="text" class="input">
-       </div>  
-       <div class="inputfield">
-          <label>Password</label>
-          <input type="password" class="input">
-       </div>  
-      <div class="inputfield">
-          <label>Confirm Password</label>
-          <input type="password" class="input">
-       </div> 
-        <div class="inputfield">
-          <label>Gender</label>
-          <div class="custom_select">
-            <select>
-              <option value="">Select</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
-          </div>
-       </div> 
-        <div class="inputfield">
-          <label>Email Address</label>
-          <input type="text" class="input">
-       </div> 
-      <div class="inputfield">
-          <label>Phone Number</label>
-          <input type="text" class="input">
-       </div> 
-      <div class="inputfield">
-          <label>Address</label>
-          <textarea class="textarea"></textarea>
-       </div> 
-      <div class="inputfield">
-          <label>Postal Code</label>
-          <input type="text" class="input">
-       </div> 
-      <div class="inputfield terms">
-          <label class="check">
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label>
-          <p>Agreed to terms and conditions</p>
-       </div> 
-      <div class="inputfield">
-        <input type="submit" value="Register" class="btn">
-      </div>
-    </div>
-</div>	
-	
-</body>
+<html>
+    <head>
+        <link href="RF.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Registration Form</h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <lable for="username" name="username">User Name</lable>
+                    <input id="txtUserName" type="text" name="username" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="email" name="email">Email</lable>
+                    <input id="txtEmail" type="email" name="email" />
+                    <small>Error Message</small>
+                </div>
+                <div class="inputfield">
+                  <label>Gender</label>
+                  <div class="custom_select">
+                    <select>
+                      <option value="">Select</option>
+                      <option value="male">Male</option>
+                      <option value="female">Female</option>
+                    </select>
+                  </div>
+                <div class="form-control">
+                    <lable for="pwd" name="pwd">Password</lable>
+                    <input id="txtPwd" type="password" name="pwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="conpwd" name="conpwd">Confirm Password</lable>
+                    <input id="txtConPwd" type="password" name="conpwd" />
+                    <small>Error Message</small>
+                </div>
+                <div class="inputfield terms">
+                  <label class="check">
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                  </label>
+                  <p>Agreed to terms and conditions</p>
+               </div> 
+                <div class="form-control">
+                    <button>Register</button>
+                </div>
+            </form>
+        </div>
+        <script src="js.js"></script>
+    </body>
 </html>
