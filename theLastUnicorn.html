@@ -62,7 +62,28 @@
            <div class="newspaper">The Last Unicorn is a fantasy novel by American author Peter S. Beagle and published in 1968, by Viking Press in the U.S. and The Bodley Head in the U.K. It follows the tale of a unicorn, who believes she is the last of her kind in the world and undertakes a quest to discover what has happened to the others.
             The story begins with a group of human hunters passing through a forest in search of game. After days of coming up empty-handed, they begin to believe they are passing through a Unicorn's forest, where animals are kept safe by a magical aura. They resign themselves to hunting somewhere else; but, before they leave, one of the hunters calls out a warning to the Unicorn that she may be the last of her kind. This revelation disturbs the Unicorn, and though she initially dismisses it, eventually doubt and worry drive her to leave her forest. She travels through the land and discovers that humans no longer even recognize her; instead they see a pretty white mare. She encounters a talking butterfly who speaks in riddles and songs and initially dodges her questions about the other unicorns. Eventually, the butterfly issues a warning that her kind have been herded to a far away land by a creature known as the Red Bull. She continues to search for other unicorns. During her journey, she is taken captive by a traveling carnival led by the witch, Mommy Fortuna, who uses magical spells to create the illusion that regular animals are in fact creatures of myth and legend. The Unicorn finds herself the only true legendary creature among the group, save for the harpy, Celaeno. Schmendrick, a magician traveling with the carnival, sees the Unicorn for what she is, and he frees her in the middle of the night. The Unicorn frees the other creatures including Celaeno, who kills Mommy Fortuna and Rukh, her hunchbacked assistant.</div>
         </em></p>
-       
+       <body>
+
+<p>Image to use:</p>
+<img id="unicorn" src="images/Fantasy/5.jfif" alt="The Lost Unicorn" width="220" height="277">
+
+<p>Canvas to fill:</p>
+<canvas id="myCanvas" width="180" height="200"
+style="border:1px solid #d3d3d3;">
+.</canvas>
+
+<p><button onclick="myCanvas()">Try it</button></p>
+
+<script>
+function myCanvas() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("unicorn");
+  ctx.drawImage(img,10,10);
+}
+</script>
+
+</body>  
             
         
         </div>
