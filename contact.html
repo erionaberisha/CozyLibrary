@@ -50,11 +50,13 @@
                   </div>
                   <div class="contact-form">
                     <h2>Contact Us</h2> 
-                    <form class="contact" action="" method="post">
-                      <input type="text" name="name" class="text-box" placeholder="Your Name" required>
-                      <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                     <form action="contact" method="get">
+                      <input type="text" name="name" class="text-box" placeholder="Your Name" required value="">
+                      <input type="email" name="email" class="text-box" placeholder="Your Email" required value="">
                       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-                      <input type="submit" name="submit" id="send-btn" value="Send">
+                        <keygen name="security">
+                        <input type="submit">
+                      </form>
                      
                     </form>
                   </div>
