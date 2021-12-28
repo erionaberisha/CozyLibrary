@@ -123,4 +123,22 @@ ul li a:hover{
 mark{
     background-color:gray ;
 }
+.color{
 
+    color:white;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
