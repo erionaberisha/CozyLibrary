@@ -8,11 +8,13 @@
         $(document).ready(function(){
           $("#flip").click(function(){
             $("#panel").slideToggle("slow");
+
           });
         });
         $(document).ready(function(){
         $("button").click(function(){
         $("#div1").fadeTo("slow", 0.0);
+        alert($("#ws").attr("href"));
   });
 });
 
@@ -48,9 +50,10 @@
    
     <div id="flip">Shadow and Bone</div>
 <div id="panel">by Leigh Bardugo</div>
+<p><a href="you marked it as read!!" id="ws"></a></p>
 <button>Mark</button><br>
 
-<div id="div1" style="width:20px;height:20px;background-color:red;">*</div><br>
+<div id="div1" style="width:20px;height:20px;background-color:red;"></div><br>
 <p>
     Surrounded by enemies, the once-great nation of Ravka has been torn in two by the Shadow Fold, a swath of near impenetrable darkness crawling with monsters who feast on human flesh. Now its fate may rest on the shoulders of one lonely refugee.
 
