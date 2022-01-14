@@ -141,3 +141,14 @@ mark{
   box-sizing: content-box;
   box-decoration-break:clone;
   }
+  #panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #5e6351;
+    border: solid 1px #b33d3d;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
