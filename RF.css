@@ -3,7 +3,7 @@
 }
 
 body{
-  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/background/);
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(images/background/Constellation.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,12 +13,12 @@ body{
 
 .container{
   width: 400px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 4px;
   overflow: hidden;
 }
 .header{
-  background-color: #f5eaca;
+  background-color: #d7bcf0;
   padding: 10px 20px;
 }
 .form{
@@ -46,7 +46,7 @@ body{
   width: 100%;
   padding: 10px;
   border-radius: 4px;
-  border:2px solid #e4d3a2;
+  border:2px solid #846b9e;
 }
 
 .form-control.success input{
@@ -61,11 +61,11 @@ body{
   visibility: hidden;
 }
 button{
-  background-color:#ffd658;
+  background-color:#9b54dd;
   color:#fff;
   padding: 10px 20px;
   width: 100%;
   border-radius:4px;
-  border:2px solid #ffd658;
+  border:2px solid #6f3aa0;
   cursor: pointer;
 }
