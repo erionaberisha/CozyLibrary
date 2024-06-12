@@ -1,6 +1,5 @@
 
 Cozy Library
-Overview
 Welcome to Cozy Library! This website is your ultimate destination for discovering, reading, and sharing books in a warm and inviting virtual space. Whether you're a bibliophile looking for your next great read, an author wanting to share your work, or just someone who enjoys the comfort of a good book, Cozy Library has something for you.
 
 Features
